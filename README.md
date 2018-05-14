@@ -6,6 +6,16 @@
 docker-compose up -d
 ```
 
+## password:
+```conf
+小版本标签及 Dockerfile
+2.19.2
+安装软件：Jenkins 2.19.2、vim、openjdk-8-jdk、git、curl、unzip
+Jenkins 插件：pipeline、git、svn、role strategy plugin
+初始帐号密码：jenkins/jenkins，请注意修改密码。
+创建服务时，注意添加 8080 和 50000 端口映射。
+```
+
 ## demo url:
 ```conf
 http://www.dev.com:8897/
