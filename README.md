@@ -1,8 +1,13 @@
 # docker-jenkins
 > Docker for jenkins.
 
-## start:
+## get-start:
 ```shell
+cd ~
+mkdir github
+cd github
+git clone https://github.com/afeiship/docker-jenkins.git
+cd docker-jenkins
 docker-compose up -d
 ```
 
