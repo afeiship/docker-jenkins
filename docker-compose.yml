@@ -4,6 +4,7 @@ services:
     image: hub.c.163.com/public/jenkins:2.60.2
     volumes:
       - ./data/jenkins:/var/jenkins_home
+      - ~/.ssh:/root/.ssh
       # - /bin/docker:/usr/bin/docker
       # - /var/run/docker.sock:/var/run/docker.sock
 
