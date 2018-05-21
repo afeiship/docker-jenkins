@@ -11,6 +11,7 @@ services:
 
     ports:
       - "8897:8080"
+    env_file: variables.env
     environment:
       - RACK_ENV=development
       - GRADLE_HOME=/root/data/Android/gradle-4.7
