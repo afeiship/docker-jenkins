@@ -13,4 +13,7 @@ services:
       - "8897:8080"
     # env_file: ./variables.env
     environment:
-      PATH: ${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${JAVA_HOME}/bin:${GRADLE_HOME}/bin:${PATH}
+    - GRADLE_HOME=/root/data/Android/gradle-4.7
+    - JAVA_HOME=/root/data/Android/jdk1.8.0_161
+    - ANDROID_HOME=/root/data/Android/Sdk
+      # PATH: ${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${JAVA_HOME}/bin:${GRADLE_HOME}/bin:${PATH}
