@@ -5,7 +5,7 @@ services:
     volumes:
       - ./data/jenkins:/var/jenkins_home
       - ~/.ssh:/root/.ssh
-      # - /home/zbaotool/Android:/root/data/Android
+      - /home/zbaotool/Android:/root/data/Android
       # - /bin/docker:/usr/bin/docker
       # - /var/run/docker.sock:/var/run/docker.sock
 
