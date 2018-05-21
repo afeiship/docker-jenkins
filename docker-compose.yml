@@ -12,3 +12,4 @@ services:
     ports:
       - "8897:8080"
     env_file: variables.env
+    restart: always
